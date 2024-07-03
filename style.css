@@ -169,6 +169,15 @@ body {
     height: 35px;
 }
 
-.socials-wrapper i {
 
+@media screen and (max-width: 520px) {
+    .score-wrapper {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .socials-wrapper {
+        bottom: -50px;
+    }
 }
